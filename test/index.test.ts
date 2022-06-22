@@ -6,5 +6,6 @@ describe('nl', () => {
     logger.start('leetcode 开始')
     logger.end('生成成功')
     logger.err('错误')
+    logger.info('start')
   })
 })

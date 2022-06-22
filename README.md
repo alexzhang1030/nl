@@ -16,11 +16,12 @@ pnpm i -D @alexzzz/nl
 
 ```ts
 const logger = new NL('任务', true)
-logger.start('leetcode 开始')
+logger.start('开始')
 logger.end('生成成功')
 logger.err('错误')
 logger.loadingStart()
 logger.loadingEnd()
+logger.info('开始')
 ```
 ## LICENSE
 

@@ -6,6 +6,7 @@ const info_type = {
   info: (content: string) => c.bgCyan(content),
   success: (content: string) => c.bgGreen(content),
   error: (content: string) => c.bgRed(content),
+  message: (content: string) => c.bgBlue(c.white(content)),
 }
 
 const withDate = (show: boolean) => show ? new Date().toLocaleString() : ''
@@ -36,6 +37,10 @@ export class NL {
 
   err(content: string) {
     this.log(content, 'error', '错误')
+  }
+
+  info(content: string) {
+    this.log(content, 'message', 'INFO')
   }
 
   loadingStart(content: string) {
