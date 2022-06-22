@@ -5,15 +5,15 @@
   "packageManager": "pnpm@7.3.0",
   "description": "",
   "keywords": [],
-  "homepage": "https://github.com/developer-plus/pkg-name#readme",
+  "homepage": "https://github.com/alexzhang1030/nl#readme",
   "bugs": {
-    "url": "https://github.com/developer-plus/pkg-name/issues"
+    "url": "https://github.com/alexzhang1030/nl/issues"
   },
   "license": "MIT",
-  "author": "developer-plus",
+  "author": "alexzhang1030",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/developer-plus/pkg-name.git"
+    "url": "git+https://github.com/alexzhang1030/nl.git"
   },
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
