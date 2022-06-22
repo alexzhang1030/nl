@@ -1,4 +1,4 @@
-# NL 
+# N(ode)L(ogger)
 
 a simple `node` environment logger tool
 
