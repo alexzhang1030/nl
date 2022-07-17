@@ -12,7 +12,7 @@ specifiers:
   lint-staged: 13.0.3
   ora: ^6.1.0
   picocolors: ^1.0.0
-  pnpm: 7.3.0
+  pnpm: 7.5.2
   tsx: 3.8.0
   typescript: 4.7.4
   unbuild: 0.7.4
@@ -33,7 +33,7 @@ devDependencies:
   eslint: 8.18.0
   husky: 8.0.1
   lint-staged: 13.0.3
-  pnpm: 7.3.0
+  pnpm: 7.5.2
   tsx: 3.8.0
   typescript: 4.7.4
   unbuild: 0.7.4
@@ -3755,8 +3755,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm/7.3.0:
-    resolution: {integrity: sha512-HOXT6V+AznAyjL2Ay3TuuJQucsEguUiKjqyQq4WPPwOpaaILhkKvu8Nn1/OQWGi9V6T7OciyrctAKeYyCha6Ow==}
+  /pnpm/7.5.2:
+    resolution: {integrity: sha512-tTLvMnu1zIAWrD87Q/Dgw0+d71Brhlm+aM62KkDr/EPNZyA7dBIsu7tS9pNfRSvwgVF7V1Dhc8jJLAsTNTXnDQ==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
