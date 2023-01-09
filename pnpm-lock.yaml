@@ -13,7 +13,7 @@ specifiers:
   ora: ^6.1.0
   picocolors: ^1.0.0
   pnpm: 7.14.0
-  tsx: 3.11.0
+  tsx: 3.12.2
   typescript: 4.8.4
   unbuild: 0.9.4
   unplugin-auto-import: 0.11.5
@@ -34,7 +34,7 @@ devDependencies:
   husky: 8.0.1
   lint-staged: 13.0.3
   pnpm: 7.14.0
-  tsx: 3.11.0
+  tsx: 3.12.2
   typescript: 4.8.4
   unbuild: 0.9.4
   unplugin-auto-import: 0.11.5
@@ -502,8 +502,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.9
     dev: true
 
-  /@esbuild-kit/cjs-loader/2.4.0:
-    resolution: {integrity: sha512-DBBCiHPgL2B/elUpvCDhNHXnlZQ9sfO2uyt1OJyAXKT41beQEFY4OxZ6gwS+ZesRCbZ6JV8M7GEyOPkjv8kdIw==}
+  /@esbuild-kit/cjs-loader/2.4.1:
+    resolution: {integrity: sha512-lhc/XLith28QdW0HpHZvZKkorWgmCNT7sVelMHDj3HFdTfdqkwEKvT+aXVQtNAmCC39VJhunDkWhONWB7335mg==}
     dependencies:
       '@esbuild-kit/core-utils': 3.0.0
       get-tsconfig: 4.2.0
@@ -516,8 +516,8 @@ packages:
       source-map-support: 0.5.21
     dev: true
 
-  /@esbuild-kit/esm-loader/2.5.0:
-    resolution: {integrity: sha512-ySs0qOsiwj+hsgZM9/MniGdvfa9/WzqfFuIia8/5gSUPeIQIX2/tG91QakxPFOR35VFiwTB7wCiHtiS6dc6SkA==}
+  /@esbuild-kit/esm-loader/2.5.4:
+    resolution: {integrity: sha512-afmtLf6uqxD5IgwCzomtqCYIgz/sjHzCWZFvfS5+FzeYxOURPUo4QcHtqJxbxWOMOogKriZanN/1bJQE/ZL93A==}
     dependencies:
       '@esbuild-kit/core-utils': 3.0.0
       get-tsconfig: 4.2.0
@@ -4595,13 +4595,13 @@ packages:
       typescript: 4.8.4
     dev: true
 
-  /tsx/3.11.0:
-    resolution: {integrity: sha512-q+q4xxu41+AafVwvAGqtNJ1ekPFd33ZhTMXvgIpHMqv/W89efwDRE9IyjhEAZm5iTHsshKaf1BYWSk789BrNCA==}
+  /tsx/3.12.2:
+    resolution: {integrity: sha512-ykAEkoBg30RXxeOMVeZwar+JH632dZn9EUJVyJwhfag62k6UO/dIyJEV58YuLF6e5BTdV/qmbQrpkWqjq9cUnQ==}
     hasBin: true
     dependencies:
-      '@esbuild-kit/cjs-loader': 2.4.0
+      '@esbuild-kit/cjs-loader': 2.4.1
       '@esbuild-kit/core-utils': 3.0.0
-      '@esbuild-kit/esm-loader': 2.5.0
+      '@esbuild-kit/esm-loader': 2.5.4
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
